@@ -440,7 +440,7 @@ namespace PdfSharp.Pdf
             CloneElement(page, importPage, PdfPage.Keys.BleedBox, true);
             CloneElement(page, importPage, PdfPage.Keys.TrimBox, true);
             CloneElement(page, importPage, PdfPage.Keys.ArtBox, true);
-#if true
+#if false
             // Do not deep copy annotations.
             CloneElement(page, importPage, PdfPage.Keys.Annots, false);
 #else
